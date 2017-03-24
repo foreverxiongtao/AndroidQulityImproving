@@ -468,9 +468,9 @@ Window Tree View Tree OverView  Layout View 四个部分
 
 ## 三.网络性能优化 ##
 
-Retrofit是目前最好的网络请求框架。
+Retrofit是目前最好的网络请求框架。官网地址:[http://square.github.io/retrofit/](http://square.github.io/retrofit/)
 
-替代异步任务最好的东西是RxJava，没有之一。
+替代异步任务最好的东西是RxJava，没有之一。官网地址:[http://gank.io/post/560e15be2dca930e00da1083](http://gank.io/post/560e15be2dca930e00da1083)
 
 ## 二.编码优化 ##
 
@@ -497,12 +497,17 @@ Retrofit是目前最好的网络请求框架。
 ## 其他的优化 ##
 
 - App整体的架构
+ 
+- 使用依赖注入能让你的app更模块化更好测试。
 
 - 导入任何第三方包的时候都要再三思考，因为这个动作责任重大。
 
-- 使用依赖注入能让你的app更模块化更好测试。
+- 使用 Android Studio -> Analyze 去分析和定位bug 
+
+- 分包按功能特点分，不要按业务层分 
 
 - 命名规范 
+
 
 
 
