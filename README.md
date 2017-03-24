@@ -1,6 +1,10 @@
 # App性能优化 #
+##一.Android优化导图
 
-## 一.内存性能分析优化 ##
+![](http://i.imgur.com/W5loi13.png)
+
+
+## 二.内存性能分析优化 ##
 
 1.1.1 前言
 
@@ -372,7 +376,7 @@ for,while这种基于循环的一定要注意
 ![](http://i.imgur.com/qhCEnyg.png)
 
 
-## 二.UI布局优化 ##
+## 三.UI布局优化 ##
 
 ### 1.Android渲染机制###
 Android系统每隔16ms就会发出一个VSYNC信号,从而触发对UI的一次渲染，如果整个过程控制在16ms以内，就能达到流畅的画面，如果你的某个操作花费时间是24ms，系统在得到VSYNC信号的时候就无法进行正常渲染，这样就发生了丢帧现象。那么用户在操作时间内看到的会是同一帧画面。那么就会出现丢帧，从而给用户带来卡顿的效果
@@ -466,13 +470,13 @@ Window Tree View Tree OverView  Layout View 四个部分
 
 
 
-## 三.网络性能优化 ##
+## 四.网络性能优化 ##
 
 Retrofit是目前最好的网络请求框架。官网地址:[http://square.github.io/retrofit/](http://square.github.io/retrofit/)
 
 替代异步任务最好的东西是RxJava，没有之一。官网地址:[http://gank.io/post/560e15be2dca930e00da1083](http://gank.io/post/560e15be2dca930e00da1083)
 
-## 二.编码优化 ##
+## 五.编码优化 ##
 
 （1）避免创建不必要的对象
 
@@ -494,7 +498,7 @@ Retrofit是目前最好的网络请求框架。官网地址:[http://square.githu
  高性能编码方面《Efficient Java》,这本书大家可以有兴趣可以查阅
 
 
-## 其他的优化 ##
+## 六.其他的优化 ##
 
 - App整体的架构
  
@@ -508,9 +512,7 @@ Retrofit是目前最好的网络请求框架。官网地址:[http://square.githu
 
 - 命名规范 推荐:[http://mp.weixin.qq.com/s/Xn7fM4zsNrvpDW8xW2m_hQ](http://mp.weixin.qq.com/s/Xn7fM4zsNrvpDW8xW2m_hQ)
 
-
-
-
+    .........
 ##写在最后
 
 有人的地方就有江湖、有代码的地方就有优化，代码不止、优化不止......
