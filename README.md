@@ -506,7 +506,7 @@ Retrofit是目前最好的网络请求框架。官网地址:[http://square.githu
 
 - 分包按功能特点分，不要按业务层分 
 
-- 命名规范 
+- 命名规范 推荐:[http://mp.weixin.qq.com/s/Xn7fM4zsNrvpDW8xW2m_hQ](http://mp.weixin.qq.com/s/Xn7fM4zsNrvpDW8xW2m_hQ)
 
 
 
